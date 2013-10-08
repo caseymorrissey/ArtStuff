@@ -10,13 +10,10 @@
 
 @implementation AAColorView
 
-- (id)initWithCoder:(NSCoder *)aDecoder
+
+- (void)changeColorForPercentage:(CGFloat)percentage;
 {
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        self.backgroundColor = [UIColor blueColor];
-    }
-    return self;
+    self.backgroundColor = [UIColor colorWithHue:percentage saturation:1.0 brightness:1.0 alpha:1.0];
 }
 
 @end

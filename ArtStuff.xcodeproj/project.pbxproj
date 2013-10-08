@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2129C0311804B371002547BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2129C0301804B371002547BE /* QuartzCore.framework */; };
 		CF22F09D17FF686100BDD487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F09C17FF686100BDD487 /* UIKit.framework */; };
 		CF22F09F17FF686100BDD487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F09E17FF686100BDD487 /* Foundation.framework */; };
 		CF22F0A117FF686100BDD487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F0A017FF686100BDD487 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2129C0301804B371002547BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CF22F09917FF686100BDD487 /* ArtStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF22F09C17FF686100BDD487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF22F09E17FF686100BDD487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2129C0311804B371002547BE /* QuartzCore.framework in Frameworks */,
 				CF22F09D17FF686100BDD487 /* UIKit.framework in Frameworks */,
 				CF22F09F17FF686100BDD487 /* Foundation.framework in Frameworks */,
 				CF22F0A117FF686100BDD487 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +65,7 @@
 		CF22F09017FF686100BDD487 = {
 			isa = PBXGroup;
 			children = (
+				2129C0301804B371002547BE /* QuartzCore.framework */,
 				CF22F0A217FF686100BDD487 /* ArtStuff */,
 				CF22F09B17FF686100BDD487 /* Frameworks */,
 				CF22F09A17FF686100BDD487 /* Products */,
@@ -313,6 +317,7 @@
 				CF22F0BE17FF686100BDD487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
