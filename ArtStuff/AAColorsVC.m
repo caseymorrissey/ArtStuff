@@ -11,6 +11,8 @@
 #import <QuartzCore/QuartzCore.h>
 
 @interface AAColorsVC ()
+@property (weak, nonatomic) IBOutlet AAColorView *ColorMyApp;
+@property (weak, nonatomic) IBOutlet AAColorView *grayscaleColorView;
 @property (strong, nonatomic) CADisplayLink *displayLink;
 @property (weak, nonatomic) IBOutlet AAColorView *secondsColorView;
 @end
@@ -26,6 +28,8 @@
     
     CGFloat percentage = [dateComps second] / 60.0;
     [self.secondsColorView changeColorForPercentage:percentage];
+    [self.grayscaleColorView changeColorForPercentage:percentage];
+    [self.ColorMyApp changeColorForPercentage:percentage+0.1];
     
 }
 

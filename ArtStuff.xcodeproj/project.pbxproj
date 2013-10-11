@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2129C0311804B371002547BE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2129C0301804B371002547BE /* QuartzCore.framework */; };
+		2129C03418065633002547BE /* AAGrayscaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129C03318065633002547BE /* AAGrayscaleView.m */; };
+		2129C03718089226002547BE /* AAColorMyApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129C03618089226002547BE /* AAColorMyApp.m */; };
 		CF22F09D17FF686100BDD487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F09C17FF686100BDD487 /* UIKit.framework */; };
 		CF22F09F17FF686100BDD487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F09E17FF686100BDD487 /* Foundation.framework */; };
 		CF22F0A117FF686100BDD487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F0A017FF686100BDD487 /* CoreGraphics.framework */; };
@@ -25,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		2129C0301804B371002547BE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2129C03218065633002547BE /* AAGrayscaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGrayscaleView.h; sourceTree = "<group>"; };
+		2129C03318065633002547BE /* AAGrayscaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAGrayscaleView.m; sourceTree = "<group>"; };
+		2129C03518089226002547BE /* AAColorMyApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColorMyApp.h; sourceTree = "<group>"; };
+		2129C03618089226002547BE /* AAColorMyApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColorMyApp.m; sourceTree = "<group>"; };
 		CF22F09917FF686100BDD487 /* ArtStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF22F09C17FF686100BDD487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF22F09E17FF686100BDD487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,8 +104,12 @@
 				CF22F0B417FF686100BDD487 /* MainStoryboard.storyboard */,
 				CF22F0BF17FF6C3C00BDD487 /* AAColorsVC.h */,
 				CF22F0C017FF6C3C00BDD487 /* AAColorsVC.m */,
+				2129C03518089226002547BE /* AAColorMyApp.h */,
+				2129C03618089226002547BE /* AAColorMyApp.m */,
 				CF22F0C517FF6DDA00BDD487 /* AAColorView.h */,
 				CF22F0C617FF6DDA00BDD487 /* AAColorView.m */,
+				2129C03218065633002547BE /* AAGrayscaleView.h */,
+				2129C03318065633002547BE /* AAGrayscaleView.m */,
 				CF22F0B717FF686100BDD487 /* AAViewController.h */,
 				CF22F0B817FF686100BDD487 /* AAViewController.m */,
 				CF22F0A317FF686100BDD487 /* Supporting Files */,
@@ -193,6 +203,8 @@
 				CF22F0B917FF686100BDD487 /* AAViewController.m in Sources */,
 				CF22F0C117FF6C3C00BDD487 /* AAColorsVC.m in Sources */,
 				CF22F0C717FF6DDA00BDD487 /* AAColorView.m in Sources */,
+				2129C03418065633002547BE /* AAGrayscaleView.m in Sources */,
+				2129C03718089226002547BE /* AAColorMyApp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
