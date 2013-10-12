@@ -29,7 +29,7 @@
     CGFloat percentage = [dateComps second] / 60.0;
     [self.secondsColorView changeColorForPercentage:percentage];
     [self.grayscaleColorView changeColorForPercentage:percentage];
-    [self.ColorMyApp changeColorForPercentage:percentage+0.1];
+    [self.ColorMyApp changeColorForPercentage:percentage];
     
 }
 
