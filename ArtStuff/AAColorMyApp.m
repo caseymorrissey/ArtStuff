@@ -15,6 +15,9 @@
 {
 
     CGFloat newPercentage = percentage + 0.1;
+    if (newPercentage > 1.0) {
+        newPercentage = newPercentage - 1.0;
+    }
     [super changeColorForPercentage:newPercentage];
 
 }
