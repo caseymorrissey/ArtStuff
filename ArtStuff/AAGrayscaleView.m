@@ -12,7 +12,7 @@
 
 -(void)changeColorForPercentage:(CGFloat)percentage;
 {
-    [UIColor colorWithWhite:percentage alpha:1.0];
+    self.backgroundColor = [UIColor colorWithWhite:percentage alpha:1.0];
 }
 
 - (id)initWithFrame:(CGRect)frame
